@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.shop_platform',   #购物平台
+    'apps.shopping_platform',   #购物平台
 ]
 
 MIDDLEWARE = [
@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'shopping_platform.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'C:/ProgramData/MySQL/MySQL Server 8.0/Data/onlineshoppingmall',
+        'NAME': 'onlineshoppingmall',
         'USER': 'root',
         'PASSWORD': 'Cxw1253698', #？这个改成自己的sql密码
-        'HOST': '',
-        'PORT': '',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
