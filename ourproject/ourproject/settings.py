@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.shop_platform', #？这个是按生鲜平台写的 不确定格式是否正确
+    'apps.shop_platform',   #购物平台
 ]
 
 MIDDLEWARE = [
