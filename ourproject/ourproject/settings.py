@@ -15,7 +15,6 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
@@ -37,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.shopping_platform',   #购物平台
+    'shopping_platform.apps',   #购物平台
 ]
 
 MIDDLEWARE = [
@@ -80,7 +79,7 @@ DATABASES = {
         'NAME': 'onlineshoppingmall',
         'USER': 'root',
         'PASSWORD': 'Cxw1253698', #？这个改成自己的sql密码
-        'HOST': 'localhost',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
     }
 }
