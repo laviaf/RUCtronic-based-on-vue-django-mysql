@@ -67,8 +67,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'shopping_platform.wsgi.application'
-
+#WSGI_APPLICATION = 'shopping_platform.wsgi.application'
+# Q 这里为什么必须注掉
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'onlineshoppingmall',
         'USER': 'root',
-        'PASSWORD': 'Cxw1253698', #？这个改成自己的sql密码
+        'PASSWORD': 'Cxw1253698', # Q 这个改成自己的sql密码
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
